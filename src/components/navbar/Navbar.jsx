@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <Link href="/" className={styles.logo}>
-        Lamamia
+        DigitalWisperer
       </Link>
       <div className={styles.links}>
         <Link href="/" className={styles.link}>

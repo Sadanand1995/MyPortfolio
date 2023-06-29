@@ -9,7 +9,7 @@ import Instagram from "../../../public/4.png";
 const Footer = () => {
   return (
     <div className={styles.container}>
-      <div>©Lamamia. All rights reserved</div>
+      <div>©DigitalWisperer. All rights reserved</div>
       <div className={styles.social}>
         <Image
           src={Github}
