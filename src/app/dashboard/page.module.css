@@ -1,4 +1,65 @@
 .container {
-  background: red;
-  color: aliceblue;
+  display: flex;
+  gap: 100px;
+}
+
+.posts {
+  flex: 1;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.imgContainer {
+  width: 160px;
+  height: 90px;
+  position: relative;
+}
+
+.img {
+  object-fit: contain;
+}
+
+.deletebtn {
+  cursor: pointer;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #53c28b;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+  color: white;
+}
+
+.new {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.textArea,
+.input {
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid #bbb;
+  border-radius: 5px;
+  color: #bbb;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 20px;
+  cursor: pointer;
+  background-color: #53c28b;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
 }
